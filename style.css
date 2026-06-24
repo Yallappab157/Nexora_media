@@ -155,3 +155,56 @@ footer p{
     margin:5px;
     color:#94a3b8;
 }
+.service-page{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.service-page h1{
+    color:#38BDF8;
+    margin-bottom:40px;
+}
+
+.service-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    max-width:900px;
+    margin:auto;
+}
+
+.service-item{
+    background:#1E293B;
+    padding:20px;
+    border-radius:10px;
+    font-size:18px;
+}
+.card-link{
+    text-decoration:none;
+    color:white;
+}
+.card-link{
+    text-decoration:none;
+    color:white;
+}
+.why-us{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.why-us h2{
+    color:#38BDF8;
+    margin-bottom:40px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.why-card{
+    background:#1E293B;
+    padding:25px;
+    border-radius:10px;
+}
